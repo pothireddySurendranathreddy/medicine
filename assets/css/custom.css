@@ -1,0 +1,14 @@
+.footer-grid{
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+  gap:10px;
+  font-size:14px;
+}
+.footer-grid a{
+  color:#2563eb;
+  text-decoration:none;
+}
+.footer-grid a:hover{
+  color:#dc2626;
+  text-decoration:underline;
+}
